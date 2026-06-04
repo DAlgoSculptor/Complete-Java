@@ -1,4 +1,3 @@
-package JavaResources;
 public class whileloop {
     public static void main(String[] args){
         // Print the table

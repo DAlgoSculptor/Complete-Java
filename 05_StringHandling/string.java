@@ -1,4 +1,4 @@
-package JavaResources;
+
 
 /**
  * String class - Demonstrates String operations and methods

@@ -1,4 +1,4 @@
-package JavaResources;
+
 public class studentArray {
     public static void main(String[] args){
 

@@ -1,3 +1,4 @@
+
 public class AdvanceCalc extends Calc
 {
     public int Multi(int a , int b){

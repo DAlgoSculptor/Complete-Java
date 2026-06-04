@@ -1,3 +1,4 @@
+package JavaResources;
 public class forloop {
     public static void main(String[] args){
         // Print the Table of 2 using for loop

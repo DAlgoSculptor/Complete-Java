@@ -1,3 +1,4 @@
+package JavaResources;
 public class NestedWhileLoop{
     public static void main(String[] args){
         int i = 1;

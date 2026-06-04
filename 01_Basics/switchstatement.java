@@ -1,3 +1,4 @@
+package JavaResources;
 public class switchstatement {
     public static void main(String[] args){
         int num = 3;

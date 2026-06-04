@@ -1,3 +1,4 @@
+package JavaResources;
 public class MultiArray{
     public static void main(String[] args){
         int num [][] = new int [3][4];

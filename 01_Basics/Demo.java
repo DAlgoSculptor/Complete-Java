@@ -1,4 +1,4 @@
-﻿// Demo class - Demonstrates calculator functionality with method overloading
+// Demo class - Demonstrates calculator functionality with method overloading
 
 public class Demo {
     public static void main(String[] args) {

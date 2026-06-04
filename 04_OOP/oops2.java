@@ -4,12 +4,12 @@ public class oops2{
         Car C = new Car();
 
         C.setColor("Red");
-        C.getSpeed(120);
+        C.setSpeed(120);
         C.setWheel(4);
 
-        System.out.println(C.setColor());
+        System.out.println(C.getColor());
         System.out.println(C.getSpeed());
-        System.out.println(C.setWheel());
+        System.out.println(C.getWheel());
     }
 }
 
@@ -19,25 +19,33 @@ class Car{
     int speed;
     int wheel;
 
+    // Setter for color
     public void setColor(String color){
-        this.color= color;
+        this.color = color;
     }
 
-    public void getSpeed(int speed){
-        this.speed=speed;
+    // Setter for speed
+    public void setSpeed(int speed){
+        this.speed = speed;
     }
+    
+    // Setter for wheel
     public void setWheel(int wheel){
-        this.wheel=wheel;
+        this.wheel = wheel;
     }
 
-
-    public String setColor(){
+    // Getter for color
+    public String getColor(){
         return color;
     }
+    
+    // Getter for speed
     public int getSpeed(){
         return speed;
     }
-    public int setWheel(){
+    
+    // Getter for wheel
+    public int getWheel(){
         return wheel;
     }
 }

@@ -1,6 +1,9 @@
-
+// Demo class - Demonstrates the VeryAdvanceCalc calculator functionality
 public class Demo {
     public static void main(String[] args) {
+        // Note: VeryAdvanceCalc is defined in 06_Calculator module
+        // This demonstrates how to use advanced calculator features
+        
         VeryAdvanceCalc obj = new VeryAdvanceCalc();
 
         int result1 = obj.Add(12,20 );

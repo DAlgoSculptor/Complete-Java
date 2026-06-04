@@ -4,6 +4,7 @@ public class dowhileloop {
         int i = 1;
         do { 
             System.out.println("Danish Nawaz "  + i);
-        } while (i<=0);
+            i++; // Increment i to avoid infinite loop
+        } while (i <= 5); // Changed condition from i<=0 to i<=5 for proper iteration
     }
 }

@@ -9,7 +9,7 @@ public class paymetGateway {
     }
 }
 
-
+@FunctionalInterface
 interface Payment{
     void pay();
 }

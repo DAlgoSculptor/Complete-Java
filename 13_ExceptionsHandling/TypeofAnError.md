@@ -22,7 +22,7 @@ Object
     │
     └── Exception
         │
-        ├── RuntimeException
+        ├── RuntimeException(UnChecked Exceptions)
         │   ├── ArithmeticException
         │   ├── NullPointerException
         │   ├── ArrayIndexOutOfBoundsException

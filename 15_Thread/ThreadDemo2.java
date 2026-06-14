@@ -1,33 +1,16 @@
 
 // To making it Thread class , we have to extends actual Thread
-
-
-class Thread_A  implements Runnable {
-    @Override
-    public void run(){
-        
-        for(int i = 1; i<=10; i++){
-            System.out.println("Hii Danish");  
-            try { 
-                Thread.sleep(10);
-            } catch (InterruptedException ex) {
-                System.getLogger(Thread_A.class.getName()).log(System.Logger.Level.ERROR, (String) null, ex);
-            }
-        }
-        
-
-    }
-}
-
+// Using Annonymous class 
 class Thread_B  implements Runnable {
     @Override
+    @SuppressWarnings("CallToPrintStackTrace")
     public void run(){
         for(int i=1; i<=10; i++){
               System.out.println("Hi Nawaz");
             try {
                 Thread.sleep(10);
-            } catch (InterruptedException ex) {
-                System.getLogger(Thread_B.class.getName()).log(System.Logger.Level.ERROR, (String) null, ex);
+            } catch (InterruptedException e) {
+               e.printStackTrace();
             }
         }
     }
@@ -37,7 +20,18 @@ class Thread_B  implements Runnable {
 public class ThreadDemo2 {
     public static void main(String[] args) {
 
-        Runnable A = new Thread_A();
+        @SuppressWarnings("CallToPrintStackTrace")
+        Runnable A = () -> {
+            for(int i = 1; i<=10; i++){
+                System.out.println("Hii Danish");
+                try { 
+                    Thread.sleep(10);
+                } catch (InterruptedException e) {
+
+                    e.printStackTrace();
+                }
+            }
+        };
         Runnable B = new Thread_B();
 
         Thread t1 = new  Thread(A);

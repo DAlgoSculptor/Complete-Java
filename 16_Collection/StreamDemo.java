@@ -24,6 +24,13 @@ public class StreamDemo {
 
         Stream<Integer> s3 = s2.map(n -> n * 2);
 
-        s3.forEach(n -> System.out.println(n));
+        
+
+        // s4.forEach(n -> System.out.println(n));
+
+        int result = s3.reduce(0, (c, e) -> c + e);
+
+
+        System.out.println(result);
     }
 }

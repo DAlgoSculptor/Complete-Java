@@ -1,5 +1,5 @@
 
-public class LargestElement {
+public class LargestElement_2 {
     public static void main(String[] args) {
         int[] arr = {1, 5, 9, 6, 10};
 

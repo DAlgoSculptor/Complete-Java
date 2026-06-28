@@ -1,4 +1,4 @@
-public class FindSecondHighestNumber {
+public class FindSecondHighestNumber_3 {
     public static void main(String[] args) {
         int[] arr = {10, 30, 5, 60, 36};
 

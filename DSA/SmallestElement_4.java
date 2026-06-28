@@ -1,4 +1,4 @@
-public class SmallestElement{
+public class SmallestElement_4{
     public static void main(String[] args){
         int[] arr = {5, 10, 9, 4, 6};
 

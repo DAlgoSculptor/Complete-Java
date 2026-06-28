@@ -234,7 +234,7 @@ java Hello
 **Danish Nawaz** — Java Enthusiast & Algorithm Developer
 
 - 🔗 **GitHub:** [@DAlgoSculptor](https://github.com/DAlgoSculptor)
-- 💻 **LeetCode:** [Danish Nawaz](https://leetcode.com/u/DANISH345/)
+- 💻 **LeetCode:** [@Danish Nawaz](https://leetcode.com/u/DANISH345/)
 - 📧 **Feedback:** Open to suggestions and improvements
 
 ---
